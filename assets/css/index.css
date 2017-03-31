@@ -2,6 +2,8 @@ body {
     margin: 0;
 }
 
+/* Nav bar theme */
+
 .nav {
     list-style-type: none;
     margin: 0;
@@ -11,6 +13,8 @@ body {
     -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
     -moz-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    position: relative;
+    z-index:1;
 }
 
 .nav li {
@@ -43,4 +47,45 @@ li:first-child a {
 .nav .brand-logo {
     float: left;
     margin-left: 50px;
+}
+
+/* end of Nav bar theme */
+
+.left-panel {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    height: 100%;
+    background: #f2f2f2;
+    position: fixed;
+    overflow: auto;
+}
+
+.left-panel li {
+    padding: 10px 15px;
+    margin: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+}
+
+.left-panel li:hover {
+    background-color: #334659;
+    color: #ffffff;
+}
+
+.left-panel li:hover a {
+    color: #ffffff;
+}
+
+.left-panel li a {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: italic;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.5px;
+    color: #313131;
 }
