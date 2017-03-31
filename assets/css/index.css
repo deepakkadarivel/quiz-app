@@ -6,6 +6,7 @@ body {
 
 .nav {
     list-style-type: none;
+    width: 100%;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -13,8 +14,8 @@ body {
     -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
     -moz-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
-    position: relative;
     z-index:1;
+    position: fixed;
 }
 
 .nav li {
@@ -51,10 +52,12 @@ li:first-child a {
 
 /* end of Nav bar theme */
 
+/* left panel theme */
+
 .left-panel {
     list-style-type: none;
-    margin: 0;
     padding: 0;
+    margin: 60px 0 0;
     width: 25%;
     height: 100%;
     background: #f2f2f2;
@@ -93,3 +96,93 @@ li:first-child a {
 li.dropdown ul {
     display : none;
 }
+
+/* end of left panel theme */
+
+/* content theme */
+
+.content {
+    margin-left:25%;
+    padding:1px 16px;
+}
+
+/* breadcrumb */
+.breadcrumb {
+    margin: 60px 0 0 0;
+    padding: 30px 30px 0;
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    font-style: italic;
+    letter-spacing: 1.5px;
+}
+
+.breadcrumb li {
+    display: inline;
+}
+
+.breadcrumb li+li:before {
+    padding: 8px;
+    color: #313131;
+    content: "/\00a0";
+}
+
+.breadcrumb li a {
+    color: #cccccc;
+    text-decoration: none;
+}
+
+.breadcrumb li a:hover {
+    color: #313131;
+    text-decoration: underline;
+}
+/* end of breadcrumb */
+
+/* question */
+.question-block {
+    margin: 50px 30px;
+    background-color: #eeeeee;
+    padding: 20px 10px;
+}
+
+.question {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    letter-spacing: 1.8px;
+}
+/* end of question */
+
+/* options block */
+.options li {
+    list-style: none;
+    padding: 15px 10px;
+    margin: 20px 60px 0 20px;
+    background-color: #ffffff;
+    border: solid 1px #979797;
+}
+
+.options li a {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    letter-spacing: 1.8px;
+    color: #313131;
+}
+/* end of options block */
+
+/* next button */
+.next {
+    margin: 30px 30px;
+    padding: 10px 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    letter-spacing: 1.8px;
+    background-color: #334659;
+    color: white;
+    border: none;
+}
+/* end of next button */
+
+
+/* end of content theme */
