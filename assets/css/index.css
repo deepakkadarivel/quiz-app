@@ -57,7 +57,7 @@ li:first-child a {
 .left-panel {
     list-style-type: none;
     padding: 0;
-    margin: 60px 0 0;
+    margin: 60px 0;
     width: 25%;
     height: 100%;
     background: #f2f2f2;
@@ -70,11 +70,6 @@ li:first-child a {
     margin: 10px;
     background-color: #ffffff;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
-}
-
-.left-panel li:hover {
-    background-color: #334659;
-    color: #ffffff;
 }
 
 .left-panel li:hover a {
@@ -95,6 +90,17 @@ li:first-child a {
 
 li.dropdown ul {
     display : none;
+}
+
+li.dropdown ul li {
+    font-size: 16px;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.0);
+    border-bottom: thin solid #cccccc;
+}
+
+li.dropdown ul li:hover {
+    background-color: #f8f8f8;
+    color: #334659;
 }
 
 /* end of left panel theme */
