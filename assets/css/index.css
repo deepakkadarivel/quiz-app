@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #334659;
+    -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+}
+
+.nav li {
+    float: right;
+}
+
+.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+}
+
+li:first-child a {
+     padding: 7px 0 0 0;
+ }
+
+.nav li a:hover {
+    background-color: #fff;
+    color: #334659;
+}
+
+.nav li:first-child a:hover {
+    background-color: #334659;
+}
+
+.nav .brand-logo {
+    float: left;
+    margin-left: 50px;
+}
