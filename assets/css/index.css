@@ -78,7 +78,7 @@ li:first-child a {
     color: #ffffff;
 }
 
-.left-panel li a {
+.left-panel li {
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
@@ -88,4 +88,8 @@ li:first-child a {
     line-height: normal;
     letter-spacing: 1.5px;
     color: #313131;
+}
+
+li.dropdown ul {
+    display : none;
 }
